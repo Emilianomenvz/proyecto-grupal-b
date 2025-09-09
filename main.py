@@ -2,8 +2,11 @@ from clases.operaciones import Operaciones
 
 
 def main():
-    lista=[3,2,5,1,4]
     test = Operaciones()
+    #Prueba base
+    print(test.saludoAlejandroMontes())
+    lista=[3,2,5,1,4]
+    
     #Realiza aquí tu prueba
 
     print(test.ordenarLista(lista))
