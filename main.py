@@ -20,14 +20,11 @@ if __name__ == '__main__':
     main()
     
 def contarPalabraEnTexto(texto, palabra):
-    # Convertimos a minúsculas
     texto = texto.lower()
     palabra = palabra.lower()
     
-    # Separamos en palabras
     palabras = texto.split()
     
-    # Contamos las coincidencias exactas
     return palabras.count(palabra)
 
 texto = "Hola mundo, hola a todos en este mundo."
