@@ -14,7 +14,7 @@ def main():
     
     #Realiza aquí tu prueba
 
-
+    lista = [5, 3, 8, 1, 4]
     print(test.minimo(lista))
 
     # Prueba del nuevo método reemplazarEspacios
@@ -22,6 +22,10 @@ def main():
     caracter = "_"
     print(f"Texto original: '{texto}'")
     print(f"Reemplazando espacios con '{caracter}':", test.reemplazarEspacios(texto, caracter))
+
+    lista_elian = [1, 2, 2, 3, 1, 4, 2, 5]
+    print("Lista original:", lista_elian)
+    print("Lista sin duplicados:", test.eliminarDuplicados(lista_elian))
 
 
 

@@ -41,5 +41,13 @@ class Operaciones:
 
         return texto.replace(" ", caracter)
 
-
+    def eliminarDuplicados(self, lista):
+        vistos = set()
+        resultado = []
+        for x in lista:
+            if x not in vistos:
+                vistos.add(x)
+                resultado.append(x)
+        return resultado
+        
 
