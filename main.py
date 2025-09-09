@@ -8,8 +8,7 @@ def main():
     lista=[3,2,5,1,4]
     
     #Realiza aquí tu prueba
-
-    print(test.ordenarLista(lista))
+    print(test.num_mayor(lista))
 
 if __name__ == '__main__':
     main()
