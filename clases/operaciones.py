@@ -5,6 +5,8 @@ class Operaciones:
     
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
-
-    def ordenarLista(self, lista):
-        return sorted(lista)
+    
+    def promedio(self, lista):
+        if not lista:
+            return 0
+        return sum(lista) / len(lista)
