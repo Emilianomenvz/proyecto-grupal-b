@@ -2,6 +2,8 @@ class Operaciones:
     def __init__(self):
         self.alejandroMontes = "Alejandro Montes"
         self.numero = 0
+        self.__x=int(0)
+        self.__y=int(0)
         
         
     
@@ -41,5 +43,11 @@ class Operaciones:
 
         return texto.replace(" ", caracter)
 
-
+    def generarTablaMultiplicar(self,x,y):
+        self.__x=x
+        self.__y=y
+        for i in range(0,self.__y+1):
+            print(self.__x*i)
+        
+        
 
