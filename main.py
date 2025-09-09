@@ -9,7 +9,8 @@ def main():
     
     #Realiza aquí tu prueba
 
-    print(test.ordenarLista(lista))
+    print(test.minimo(lista))
+
 
 if __name__ == '__main__':
     main()
