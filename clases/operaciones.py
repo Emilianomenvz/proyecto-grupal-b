@@ -62,6 +62,15 @@ class Operaciones:
         return sorted(lista)
     
 
+    
+    def contarPalabraEnTexto(self, texto: str, palabra: str) -> int:
+        if not palabra:
+            raise ValueError("La palabra no puede estar vacía.")
+        palabras = texto.split()
+        return palabras.count(palabra)
+    
+
+
     def minimo(self, lista):
         menor = lista[0]
         for num in lista:
@@ -87,5 +96,6 @@ class Operaciones:
                 resultado.append(x)
         return resultado
         
+
 
 

@@ -52,7 +52,12 @@ def main():
 
 
 
+# Prueba de contarPalabraEnTexto
+    texto2 = "hola mundo hola hola universo"
+    palabra = "hola"
+    print(f"\nTexto: '{texto2}'")
+    print(f"La palabra '{palabra}' aparece", op.contarPalabraEnTexto(texto2, palabra), "veces.")
+
 if __name__ == '__main__':
     main()
-
 
