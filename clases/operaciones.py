@@ -22,6 +22,18 @@ class Operaciones:
         else:
             return False 
 
+
+    def contarVocales(texto):
+        contador = 0
+        for letra in texto.lower():
+            if letra in "aeiou":
+                contador += 1
+        return contador
+
+
+
+    
+
     def ordenarLista(self, lista):
         return sorted(lista)
     
@@ -40,6 +52,7 @@ class Operaciones:
         return palabras.count(palabra)
 
         return texto.replace(" ", caracter)
+
 
 
 

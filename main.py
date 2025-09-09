@@ -8,6 +8,12 @@ def main():
 
     
     #Realiza aquí tu prueba
+
+    vocales = Operaciones()
+    print(vocales.contarVocales("Hola mundo"))
+    
+    print(test.ordenarLista(lista))
+
     print(test.verificarPar())
 
    
@@ -26,6 +32,8 @@ def main():
 
 
 
+
 if __name__ == '__main__':
     main()
     
+
