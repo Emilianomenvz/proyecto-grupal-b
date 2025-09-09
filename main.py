@@ -11,7 +11,7 @@ def main():
     print(test.verificarPar())
     
      #Realiza aquí tu prueba
-    print(test.generarTablaMultiplicar(1,10))
+    print(test.generarTablaMultiplicar(1,100))
    
     
     #Realiza aquí tu prueba
