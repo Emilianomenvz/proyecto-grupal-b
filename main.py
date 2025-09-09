@@ -16,6 +16,15 @@ def main():
     print(test.serieFibonacci(8))
 
 
+
+
+    op = Operaciones()
+
+    print(op.esPar(2))   
+    print(op.esPar(3))   
+    print(op.esPar(0)) 
+
+
     
     #Realiza aquí tu prueba
     test = Operaciones()
@@ -31,6 +40,7 @@ def main():
     print(vocales.contarVocales("Hola mundo"))
     
     print(test.ordenarLista(lista))
+
 
     print(test.verificarPar())
 
@@ -59,5 +69,8 @@ def main():
     print(f"La palabra '{palabra}' aparece", op.contarPalabraEnTexto(texto2, palabra), "veces.")
 
 if __name__ == '__main__':
+
+
     main()
+
 

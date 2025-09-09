@@ -50,6 +50,10 @@ class Operaciones:
         print()
 
 
+
+    def esPar(self, numero):
+        return numero % 2 == 0
+
     def num_mayor(self, lista):
         mayor=lista[0]
         for num in lista:
@@ -96,6 +100,7 @@ class Operaciones:
                 resultado.append(x)
         return resultado
         
+
 
 
 
