@@ -10,6 +10,7 @@ def main():
     #Realiza aquí tu prueba
 
 
+
     op = Operaciones()
 
     print(op.esPar(2))   

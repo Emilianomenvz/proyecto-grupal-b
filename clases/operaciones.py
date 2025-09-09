@@ -6,6 +6,7 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
+
     def esPar(self, numero):
         return numero % 2 == 0
 
