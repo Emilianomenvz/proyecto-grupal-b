@@ -14,3 +14,10 @@ def main():
 if __name__ == '__main__':
     main()
     
+
+
+def contarPalabraEnTexto(texto, palabra):
+    texto = texto.lower()
+    palabra = palabra.lower()
+    palabras = texto.split()
+    return palabras.count(palabra)
