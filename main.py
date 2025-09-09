@@ -14,11 +14,15 @@ def main():
     
     #Realiza aquí tu prueba
 
+
+    print(test.minimo(lista))
+
     # Prueba del nuevo método reemplazarEspacios
     texto = "Hola mundo con espacios"
     caracter = "_"
     print(f"Texto original: '{texto}'")
     print(f"Reemplazando espacios con '{caracter}':", test.reemplazarEspacios(texto, caracter))
+
 
 
 
