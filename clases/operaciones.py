@@ -1,10 +1,11 @@
 class Operaciones:
     def __init__(self):
         self.alejandroMontes = "Alejandro Montes"
+
         self.numero = 0
         
         
-    
+
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
     
@@ -34,6 +35,14 @@ class Operaciones:
 
     
 
+
+    def serieFibonacci(self, n):
+        a, b = 0, 1
+        while a <= n:
+            print(a, end=" ")
+            a, b = b, a + b
+        print()
+
     def ordenarLista(self, lista):
         return sorted(lista)
     
@@ -52,6 +61,7 @@ class Operaciones:
         return palabras.count(palabra)
 
         return texto.replace(" ", caracter)
+
 
 
 

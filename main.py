@@ -8,11 +8,17 @@ def main():
 
     
     #Realiza aquí tu prueba
+    print(test.serieFibonacci(8))
+
+
+    
+    #Realiza aquí tu prueba
 
     vocales = Operaciones()
     print(vocales.contarVocales("Hola mundo"))
     
     print(test.ordenarLista(lista))
+
 
     print(test.verificarPar())
 
