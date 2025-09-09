@@ -1,6 +1,8 @@
 class Operaciones:
     def __init__(self):
         self.alejandroMontes = "Alejandro Montes"
+        self.numero = 0
+        
         
     
     def saludoAlejandroMontes(self):
@@ -12,6 +14,14 @@ class Operaciones:
             raise ValueError("El caracter debe ser un único símbolo.")
 
 
+
+    def verificarPar(self):
+        self.numero = int(input("Ingrese un número: "))
+        if self.numero % 2 == 0:
+            return True
+        else:
+            return False 
+
     def ordenarLista(self, lista):
         return sorted(lista)
     
@@ -22,4 +32,5 @@ class Operaciones:
         return palabras.count(palabra)
 
         return texto.replace(" ", caracter)
+
 
