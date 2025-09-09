@@ -48,6 +48,8 @@ class Operaciones:
         self.__y=y
         for i in range(0,self.__y+1):
             print(self.__x*i)
+            return
+        
         
         
 
