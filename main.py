@@ -17,7 +17,7 @@ def main():
     #Realiza aquí tu prueba
 
 
-    print(test.minimo(lista))
+    #print(test.minimo(lista))
 
     # Prueba del nuevo método reemplazarEspacios
     texto = "Hola mundo con espacios"
