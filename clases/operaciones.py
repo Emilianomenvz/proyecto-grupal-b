@@ -8,3 +8,9 @@ class Operaciones:
 
     def ordenarLista(self, lista):
         return sorted(lista)
+    
+    def contarPalabraEnTexto(texto, palabra):
+        texto = texto.lower()
+        palabra = palabra.lower()
+        palabras = texto.split()
+        return palabras.count(palabra)
