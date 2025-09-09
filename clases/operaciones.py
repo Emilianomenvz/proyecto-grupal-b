@@ -6,5 +6,6 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
 
-    def ordenarLista(self, lista):
-        return sorted(lista)
+    def esPar(self, numero):
+        return numero % 2 == 0
+

@@ -9,7 +9,11 @@ def main():
     
     #Realiza aquí tu prueba
 
-    print(test.ordenarLista(lista))
-
 if __name__ == '__main__':
     main()
+    
+op = Operaciones()
+
+print(op.esPar(2))   
+print(op.esPar(3))   
+print(op.esPar(0))   
