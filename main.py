@@ -18,6 +18,9 @@ def main():
 
     
     #Realiza aquí tu prueba
+    test = Operaciones()
+    print(test.numero_mayor())
+    lista=[10,23,1,54,53]
 
     print(test.num_mayor(lista))
 
@@ -43,5 +46,5 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
+
 

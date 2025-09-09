@@ -10,6 +10,10 @@ class Operaciones:
         return "Mi nombre es " + self.alejandroMontes
     
 
+    def numero_mayor(self):
+        return max(self.lista)
+
+
     def promedio(self, lista):
         if not lista:
             return 0
