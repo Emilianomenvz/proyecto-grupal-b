@@ -9,6 +9,12 @@ class Operaciones:
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
     
+
+    def promedio(self, lista):
+        if not lista:
+            return 0
+        return sum(lista) / len(lista)
+
     def reemplazarEspacios(self, texto: str, caracter: str) -> str:
         
         if not caracter or len(caracter) != 1:
@@ -30,10 +36,6 @@ class Operaciones:
             if letra in "aeiou":
                 contador += 1
         return contador
-
-
-
-    
 
 
     def serieFibonacci(self, n):
@@ -61,8 +63,3 @@ class Operaciones:
         return palabras.count(palabra)
 
         return texto.replace(" ", caracter)
-
-
-
-
-
