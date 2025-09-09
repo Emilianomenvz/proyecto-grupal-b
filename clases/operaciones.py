@@ -15,11 +15,10 @@ class Operaciones:
     def ordenarLista(self, lista):
         return sorted(lista)
     
-    def contarPalabraEnTexto(texto, palabra):
-        texto = texto.lower()
-        palabra = palabra.lower()
+    
+    def contarPalabraEnTexto(self, texto: str, palabra: str) -> int:
+        if not palabra:
+            raise ValueError("La palabra no puede estar vacía.")
         palabras = texto.split()
         return palabras.count(palabra)
-
-        return texto.replace(" ", caracter)
-
+    

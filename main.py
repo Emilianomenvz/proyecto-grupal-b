@@ -16,22 +16,12 @@ def main():
     print(f"Reemplazando espacios con '{caracter}':", test.reemplazarEspacios(texto, caracter))
 
 
+# Prueba de contarPalabraEnTexto
+    texto2 = "hola mundo hola hola universo"
+    palabra = "hola"
+    print(f"\nTexto: '{texto2}'")
+    print(f"La palabra '{palabra}' aparece", op.contarPalabraEnTexto(texto2, palabra), "veces.")
+
 if __name__ == '__main__':
     main()
     
-def contarPalabraEnTexto(texto, palabra):
-    texto = texto.lower()
-    palabra = palabra.lower()
-    
-    palabras = texto.split()
-    
-    return palabras.count(palabra)
-
-texto = "Hola mundo, hola a todos en este mundo."
-resultado1 = contarPalabraEnTexto(texto, "hola")
-resultado2 = contarPalabraEnTexto(texto, "mundo")
-resultado3 = contarPalabraEnTexto(texto, "python")
-
-print("Veces que aparece 'hola':", resultado1)
-print("Veces que aparece 'mundo':", resultado2)
-print("Veces que aparece 'python':", resultado3)
