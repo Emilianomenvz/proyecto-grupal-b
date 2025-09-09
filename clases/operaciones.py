@@ -5,7 +5,6 @@ class Operaciones:
     
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
-    
-    
-def ordenarLista(lista):
-    return sorted(lista)
+
+    def ordenarLista(self, lista):
+        return sorted(lista)
