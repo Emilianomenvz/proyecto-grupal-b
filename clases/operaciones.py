@@ -45,6 +45,15 @@ class Operaciones:
             a, b = b, a + b
         print()
 
+
+    def num_mayor(self, lista):
+        mayor=lista[0]
+        for num in lista:
+            if num > mayor: 
+                mayor=num
+        return mayor
+    
+    
     def ordenarLista(self, lista):
         return sorted(lista)
     
@@ -63,3 +72,4 @@ class Operaciones:
         return palabras.count(palabra)
 
         return texto.replace(" ", caracter)
+

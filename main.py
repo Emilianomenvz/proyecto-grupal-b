@@ -19,6 +19,8 @@ def main():
     
     #Realiza aquí tu prueba
 
+    print(test.num_mayor(lista))
+
     vocales = Operaciones()
     print(vocales.contarVocales("Hola mundo"))
     
