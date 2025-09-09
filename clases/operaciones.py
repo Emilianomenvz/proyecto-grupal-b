@@ -1,13 +1,24 @@
 class Operaciones:
     def __init__(self):
         self.alejandroMontes = "Alejandro Montes"
+
         self.numero = 0
         
         
-    
+
     def saludoAlejandroMontes(self):
         return "Mi nombre es " + self.alejandroMontes
     
+
+    def numero_mayor(self):
+        return max(self.lista)
+
+
+    def promedio(self, lista):
+        if not lista:
+            return 0
+        return sum(lista) / len(lista)
+
     def reemplazarEspacios(self, texto: str, caracter: str) -> str:
         
         if not caracter or len(caracter) != 1:
@@ -22,6 +33,31 @@ class Operaciones:
         else:
             return False 
 
+
+    def contarVocales(texto):
+        contador = 0
+        for letra in texto.lower():
+            if letra in "aeiou":
+                contador += 1
+        return contador
+
+
+    def serieFibonacci(self, n):
+        a, b = 0, 1
+        while a <= n:
+            print(a, end=" ")
+            a, b = b, a + b
+        print()
+
+
+    def num_mayor(self, lista):
+        mayor=lista[0]
+        for num in lista:
+            if num > mayor: 
+                mayor=num
+        return mayor
+    
+    
     def ordenarLista(self, lista):
         return sorted(lista)
     
@@ -41,6 +77,7 @@ class Operaciones:
 
         return texto.replace(" ", caracter)
 
+
     def eliminarDuplicados(self, lista):
         vistos = set()
         resultado = []
@@ -50,4 +87,5 @@ class Operaciones:
                 resultado.append(x)
         return resultado
         
+
 
